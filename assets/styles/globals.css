@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+.my-avatar {
+  height: 160px;
+  width: 160px;
+  background-image: url('../images/myavatar.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media (min-width: 992px) {
+  .container {
+      max-width: 780px;
+  }
+}
+@media (max-width: 580px) {
+  .container{
+      max-width: 90%;
+  }
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.card {
+  box-shadow: 0 3px 4px rgba(0,0,0,0.2);
+}
+.navbar-brand {
+  font-size: 18px;
+}
+footer span {
+  font-size: 16px;
+}
+
+#error-404 {
+  height: 100vh;
+}
+
+.article-img {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  filter: grayscale(90%);
+  transition: all .5s;
+}
+.card:hover > .article-img{
+  filter: grayscale(0%);
+}
+.card:hover {
+  transition: all .5s;
+  transform: scale(1.03);
+}
+/* .my-avatar:hover {
+  transition: all .7s;
+    transform: scale(.7) rotate(360deg);
+} */
+
+.links a > svg:hover {
+  transition: all .4s;
+  transform: scale(.94);
+  
+}
+.article img {
+  width: 100%;
+}
