@@ -10,7 +10,8 @@ export const projects = [
       name: "netUS",
       description: "This project is a web application built with Laravel and MySQL that allows users to browse and interact with communities and their respective posts.",
       image: "https://f.top4top.io/p_2678erimy2.png",
-      stack: ['laravel', 'mySQL', 'javascript', 'bootstrap']
+      stack: ['laravel', 'mySQL', 'javascript', 'bootstrap'],
+      github: "https://github.com/amouchaldev/netUS"
     },
     {
       name: "streamio",
